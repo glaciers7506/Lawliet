@@ -38,7 +38,7 @@ table.add_column("Url", style="dim", width=40, justify="center")
 
 def check_instagram(name):
 	response = requests.get("https://www.instagram.com/"+name)
-	if (len(response.text) < 253000 ):
+	if (len(response.text) < 376650 ):
 		table.add_row(
 		    "\n[green]Instagram[green]\n",
 		  	"\nhttps://www.instagram.com/"+name+"\n",
