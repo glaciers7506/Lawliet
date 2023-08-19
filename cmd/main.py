@@ -78,8 +78,11 @@ def site_check_y_n(url, minx, maxx, name_site):
 	console.print(table, justify="center")
 
 nome = sys.argv[1]
-check_instagram(nome)
-site_check_y_n(("https://replit.com/@"+nome),200000 , 200000, "Repl.it")
+site_check_y_n(("https://instagram.com/"+nome),243566 , 200000, "Instagram")
+try:
+	site_check_y_n(("https://replit.com/@"+nome),200000 , 200000, "Repl.it")
+except Exception:
+	pass
 try:
     site_check_y_n(("https://vsco.co/"+nome+"/gallery"),120000 , 120000, "Vsco")
 except Exception:
