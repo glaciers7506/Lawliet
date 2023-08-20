@@ -36,27 +36,6 @@ table = Table(show_header=True, header_style="bold magenta")
 table.add_column("Find", style="dim", width=20, justify="center")
 table.add_column("Url", style="dim", width=40, justify="center")
 
-def check_instagram(name):
-	response = requests.get("https://www.instagram.com/"+name)
-	if (len(response.text) < 376650 ):
-		table.add_row(
-		    "\n[green]Instagram[green]\n",
-		  	"\nhttps://www.instagram.com/"+name+"\n",
-		)
-
-		link_list.append("https://www.instagram.com/"+name)
-
-	else:
-		table.add_row(
-		    "[red]Instagram[red]\n",
-		  	"-\n",
-		)
-
-	os.system("clear")
-	console.print(ascii_art, justify="center", style="#D3869B bold")
-	console.print(table, justify="center")
-
-
 def site_check_y_n(url, minx, maxx, name_site):
 	response = requests.get(url)
 	if (len(response.text) >= minx):
@@ -94,7 +73,7 @@ except Exception:
     pass
 
 try:
-    site_check_y_n(("https://www.younow.com/"+nome),22000 , 22000, "YouNow")
+    site_check_y_n(("https://www.younow.com/"+nome),11000 , 22000, "YouNow")
 except Exception:
     pass
 
@@ -104,7 +83,7 @@ except Exception:
     pass
 
 try:
-    site_check_y_n(("https://www.last.fm/user/"+nome),90000 , 90000, "last.fm")
+    site_check_y_n(("https://www.last.fm/user/"+nome),95000 , 90000, "last.fm")
 except Exception:
     pass
 
