@@ -113,7 +113,7 @@ except Exception:
     pass
 
 try:
-    site_check_y_n(("https://www.spletnik.ru/user/"+nome),30000 , 30000, "Spletnik")
+    site_check_y_n(("https://www.spletnik.ru/user/"+nome),300000 , 300000, "Spletnik")
 except Exception:
     pass
 
