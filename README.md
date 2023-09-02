@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Version-0.0.1-green" alt=""/>
   <img src="https://img.shields.io/badge/Written in-python-blue" alt=""/>
   <img src="https://img.shields.io/badge/Author-RedKatz-937DC2" alt=""/>
- 
+  <a href="https://scrutinizer-ci.com/g/RedKatz/lawliet/"><img src="https://img.shields.io/badge/Code quality-10.00-lightgreen" alt=""/></a> 
 </p>
 <p align="center">
   <a href="#installation">Installation</a>
