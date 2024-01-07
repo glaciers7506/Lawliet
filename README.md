@@ -9,8 +9,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Version-0.0.1-green" alt=""/>
   <img src="https://img.shields.io/badge/Written in-python-blue" alt=""/>
-  <img src="https://img.shields.io/badge/Author-SamueleAmato-937DC2" alt=""/>
-  <a href="https://scrutinizer-ci.com/g/SamueleAmato/lawliet/"><img src="https://img.shields.io/badge/Code quality-10.00-lightgreen" alt=""/></a> 
+  <img src="https://img.shields.io/badge/Author-NullPulse-937DC2" alt=""/>
+  <a href="https://scrutinizer-ci.com/g/NullPulse/lawliet/"><img src="https://img.shields.io/badge/Code quality-10.00-lightgreen" alt=""/></a> 
 </p>
 <p align="center">
   <a href="#installation">Installation</a>
@@ -29,7 +29,7 @@
  ### Installation
   ```
   # clone the repository
-  $ git clone https://github.com/SamueleAmato/Lawliet
+  $ git clone https://github.com/NullPulse/Lawliet
   
   # change the working directory to Lawliet
   $ cd Lawliet
@@ -57,6 +57,6 @@
 
 ##
 ### Issued and Suggestions
-If you have encountered an issue with Lawliet or would like to suggest an improvement, please report it in our [Issues section](https://github.com/SamueleAmato/Lawliet/issues).
+If you have encountered an issue with Lawliet or would like to suggest an improvement, please report it in our [Issues section](https://github.com/NullPulse/Lawliet/issues).
 Please provide as much detail as possible about the issue or suggestion so that we can resolve or implement it as soon as possible.<br><br>
 _Thank you for your contribution!_
