@@ -13,7 +13,7 @@
 
 </p>
 <p align="center">
-  <a href="#installation">Installation</a>
+  <a href="[dhttps://www.instagram.com/cindra_reed?igsh=Z3ZiNnJ0a2o1dmR1ef]">Installation</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#usage">Usage</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -45,3 +45,6 @@
   
   //Windows
   lawliet.exe
+
+
+[def]: installatio
